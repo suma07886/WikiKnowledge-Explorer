@@ -864,3 +864,20 @@ shard and does not require the complete dataset.
 - 📊 Dataset statistics
 """
     )
+    # --- Simple WikiQuiz Feature ---
+def simple_quiz():
+    print("\n--- Wiki Quiz ---")
+    topic = input("Enter a topic: ")
+
+    if topic.lower() == "isro":
+        print("Question: ISRO belongs to which country?")
+        ans = input("Your answer: ")
+        if "india" in ans.lower():
+            print("Correct!")
+        else:
+            print("Wrong! Answer is India.")
+    else:
+        print("No quiz available for this topic yet.")
+
+# call the function
+simple_quiz()
