@@ -12,4 +12,4 @@ This project is built using Wikimedia dataset concepts. It allows users to explo
 Wikimedia Structured Contents (Kaggle)
 
 ## Author
-Your Name
+Suma U Kadam
